@@ -1,13 +1,13 @@
 import { connect } from "cloudflare:sockets";
 
 // 配置区块
-let 订阅路径 = "订阅路径";
-let 伪装网页;
+let 订阅路径 = "sub";
+let 伪装网页;example.com
 let 验证UUID;
 let 优选链接 = "https://raw.githubusercontent.com/ImLTHQ/edgetunnel/main/output.txt";
 let 优选列表 = [];
 let NAT64前缀 = "2a02:898:146:64::";
-let DOH地址 = "1.1.1.1";
+let DOH地址 = "8.8.8.8";
 let 反代IP = "proxyip.cmliussss.net";
 
 let 威图锐拆分_1 = "v2";
